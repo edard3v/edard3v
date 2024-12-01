@@ -35,8 +35,14 @@ const { title = SEO.title } = Astro.props;
     <ViewTransitions />
   </head>
   <body>
-    <header>Header</header>
     <slot />
     <footer>Footer</footer>
   </body>
 </html>
+
+<style>
+  body {
+    background-color: var(--bg-main);
+    color: var(--paras);
+  }
+</style>

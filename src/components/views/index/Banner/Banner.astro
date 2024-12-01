@@ -1,0 +1,32 @@
+---
+import Download from "../../../links/Download/Download.astro";
+---
+
+<div class="banner">
+  <div>
+    <h1>Edwin Ortiz</h1>
+    <h2>Full Stack Developer</h2>
+  </div>
+  <Download class:list={"download"} download="curriculum" href="/curriculum.pdf"
+    >Currículum</Download
+  >
+</div>
+
+<style>
+  .banner {
+    height: 100dvh;
+    text-align: center;
+
+    display: grid;
+    place-content: center;
+    gap: var(--xl);
+
+    h1 {
+      color: var(--primary);
+    }
+
+    .download {
+      justify-self: center;
+    }
+  }
+</style>
