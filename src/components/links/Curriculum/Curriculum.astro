@@ -1,31 +1,36 @@
 ---
 import type { HTMLAttributes } from "astro/types";
+import curriculum from "./curriculum.pdf";
 
 interface Props extends HTMLAttributes<"a"> {}
 
-const { href, download, class: cls, ...rest } = Astro.props;
+const { class: cls, ...rest } = Astro.props;
 ---
 
-<a {...rest} download={download} href={href} class:list={[cls]}>
-  <slot />
+<a
+  {...rest}
+  target="_blank"
+  rel="noreferrer"
+  href={curriculum}
+  class:list={[cls]}
+>
+  Curriculum
 </a>
 
 <style>
   a {
     color: var(--white);
-    border-radius: var(--md);
-    background-color: var(--secondary);
-    cursor: pointer;
+    border-radius: var(--sm);
+    background-color: var(--bg-surf);
     padding: var(--md) var(--xl);
-    border: 2px solid black;
+
+    display: flex;
+    align-items: center;
+    min-height: var(--h-inputs);
 
     white-space: nowrap; /* Evita que el texto haga varias líneas */
     overflow: hidden; /* Oculta el texto que se desborda */
     text-overflow: ellipsis; /* Muestra los "..." cuando el texto se corta */
-
-    &:hover {
-      outline: 2px solid var(--secondary);
-    }
 
     &:active {
       transform: scale(0.95);
