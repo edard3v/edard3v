@@ -1,0 +1,34 @@
+---
+import Logo from "../../logos/Logo/Logo.astro";
+---
+
+<header>
+  <Logo />
+  <nav>
+    <a href="">Descargar cv</a>
+    <a href="">Trabajos</a>
+    <a href="">Solicitar cotización</a>
+    <a href="">Herramientas</a>
+  </nav>
+</header>
+
+<style>
+  header {
+    padding: var(--md) var(--xl);
+    border-bottom: var(--border);
+
+    display: grid;
+    grid-template-columns: auto 1fr;
+
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--xl);
+
+      a {
+        color: inherit;
+      }
+    }
+  }
+</style>

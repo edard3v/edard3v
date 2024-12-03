@@ -1,0 +1,20 @@
+---
+import { Image } from "astro:assets";
+import edarcode from "./edarcode.avif";
+---
+
+<article>
+  <Image class:list={["edar"]} src={edarcode} alt={"edarcode"} width={100} />
+  <h1>Edwin Ortiz</h1>
+  <h2>Web Developer</h2>
+  <p>
+    Soy un profesional dedicado al desarrollo de sitios web, enfocado en la
+    calidad y el compromiso con cada proyecto.
+  </p>
+</article>
+
+<style>
+  .edar {
+    border-radius: 25%;
+  }
+</style>

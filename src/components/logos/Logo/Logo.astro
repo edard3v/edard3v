@@ -1,0 +1,19 @@
+---
+import { Image } from "astro:assets";
+import logo from "./logo.avif";
+---
+
+<a href="/"><Image src={logo} alt="logo edarcode" width={64} height={64} /></a>
+
+<style>
+  a {
+    img {
+      border-radius: 25%;
+      transition: transform 0.3s ease;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+</style>
