@@ -13,13 +13,14 @@ const { class: cls, ...rest } = Astro.props;
 <style>
   button {
     padding: var(--md) var(--xl);
-    border-radius: var(--sm);
-    background-color: var(--primary);
+    border-radius: var(--lg);
+    background-color: var(--bg-surf);
     min-height: var(--h-inputs);
     color: var(--white);
+    transition: background-color 0.7s;
 
     &:hover:not(:disabled) {
-      animation: deform 0.3s linear both;
+      outline: 3px solid var(--secondary);
     }
   }
 </style>

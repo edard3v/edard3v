@@ -1,14 +1,16 @@
 ---
+import { ROUTER } from "../../../pages/router";
+import Surf from "../../links/Surf/Surf.astro";
 import Logo from "../../logos/Logo/Logo.astro";
 ---
 
 <header>
   <Logo />
   <nav>
-    <a href="">Descargar cv</a>
-    <a href="">Trabajos</a>
-    <a href="">Solicitar cotización</a>
-    <a href="">Herramientas</a>
+    <Surf href="">Descargar cv</Surf>
+    <Surf href="">Trabajos</Surf>
+    <Surf href="">Solicitar cotización</Surf>
+    <Surf href={ROUTER.herramientas.href}>{ROUTER.herramientas.display}</Surf>
   </nav>
 </header>
 
@@ -25,10 +27,6 @@ import Logo from "../../logos/Logo/Logo.astro";
       align-items: center;
       justify-content: center;
       gap: var(--xl);
-
-      a {
-        color: inherit;
-      }
     }
   }
 </style>

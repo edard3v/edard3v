@@ -1,20 +1,51 @@
 ---
-import { Image } from "astro:assets";
-import edarcode from "./edarcode.avif";
+import Btn from "../../../buttons/Btn/Btn.astro";
 ---
 
 <article>
-  <Image class:list={["edar"]} src={edarcode} alt={"edarcode"} width={100} />
-  <h1>Edwin Ortiz</h1>
-  <h2>Web Developer</h2>
-  <p>
-    Soy un profesional dedicado al desarrollo de sitios web, enfocado en la
-    calidad y el compromiso con cada proyecto.
-  </p>
+  <div class="container">
+    <div>
+      <h1>Edwin Ortiz</h1>
+      <h2>Desarrollador Web</h2>
+    </div>
+    <p class="quote">Enfocado en la calidad y compromiso con cada proyecto.</p>
+    <Btn>Currículum</Btn>
+  </div>
 </article>
 
 <style>
-  .edar {
-    border-radius: 25%;
+  article {
+    height: calc(100dvh - 81px);
+
+    display: grid;
+    place-content: center;
+
+    .container {
+      display: grid;
+      gap: var(--lg);
+      justify-items: center;
+
+      h1 {
+        font-size: 4.5rem;
+        color: var(--primary);
+        line-height: 70%;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 2rem;
+      }
+
+      .quote {
+        color: var(--green);
+        background: linear-gradient(
+          45deg,
+          var(--primary),
+          var(--secondary)
+        ); /* Gradiente */
+        -webkit-background-clip: text; /* Aplica el gradiente solo al texto */
+        -webkit-text-fill-color: transparent; /* Hace transparente el relleno */
+      }
+    }
   }
 </style>
