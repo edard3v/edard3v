@@ -7,9 +7,8 @@ import Logo from "../../logos/Logo/Logo.astro";
 <header>
   <Logo />
   <nav>
-    <Surf href="">Descargar cv</Surf>
-    <Surf href="">Trabajos</Surf>
-    <Surf href="">Solicitar cotización</Surf>
+    <a>Trabajos</a>
+    <a>Solicitar cotización</a>
     <Surf href={ROUTER.herramientas.href}>{ROUTER.herramientas.display}</Surf>
   </nav>
 </header>
@@ -27,6 +26,10 @@ import Logo from "../../logos/Logo/Logo.astro";
       align-items: center;
       justify-content: center;
       gap: var(--xl);
+
+      a {
+        color: inherit;
+      }
     }
   }
 </style>

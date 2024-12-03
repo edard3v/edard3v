@@ -3,5 +3,6 @@
 @import "./colors.css";
 @import "./borders.css";
 @import "./fonts.css";
-@import "./rare.animation.css";
-@import "./entry.animations.css";
+@import "./scale.animation.css";
+@import "./rotateAndScale.animation.css";
+@import "./tracking.animation.css";

@@ -3,13 +3,13 @@ import Btn from "../../../buttons/Btn/Btn.astro";
 ---
 
 <article>
-  <div class="container">
+  <div class="container scale-up-center">
     <div>
       <h1>Edwin Ortiz</h1>
       <h2>Desarrollador Web</h2>
     </div>
     <p class="quote">Enfocado en la calidad y compromiso con cada proyecto.</p>
-    <Btn>Currículum</Btn>
+    <a href="/cv.pdf" target="_blank" rel="noreferrer"><Btn>Currículum</Btn></a>
   </div>
 </article>
 
@@ -34,10 +34,10 @@ import Btn from "../../../buttons/Btn/Btn.astro";
       h2 {
         text-align: center;
         font-size: 2rem;
+        color: var(--grey);
       }
 
       .quote {
-        color: var(--green);
         background: linear-gradient(45deg, var(--primary), var(--secondary));
         -webkit-background-clip: text; /* Aplica el gradiente solo al texto */
         -webkit-text-fill-color: transparent; /* Hace transparente el relleno */
