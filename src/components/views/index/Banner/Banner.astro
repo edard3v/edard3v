@@ -9,13 +9,16 @@ import Btn from "../../../buttons/Btn/Btn.astro";
       <h2>Desarrollador Web</h2>
     </div>
     <p class="quote">Enfocado en la calidad y compromiso con cada proyecto.</p>
-    <a href="/cv.pdf" target="_blank" rel="noreferrer"><Btn>Currículum</Btn></a>
+    <a href="/cv.pdf" target="_blank" rel="noopener noreferrer"
+      ><Btn>Currículum</Btn></a
+    >
   </div>
 </article>
 
 <style>
   article {
     height: calc(100dvh - 81px);
+    text-align: center;
 
     display: grid;
     place-content: center;
@@ -27,14 +30,12 @@ import Btn from "../../../buttons/Btn/Btn.astro";
 
       h1 {
         font-size: 4.5rem;
-        color: var(--primary);
         line-height: 70%;
       }
 
       h2 {
         text-align: center;
         font-size: 2rem;
-        color: var(--grey);
       }
 
       .quote {
