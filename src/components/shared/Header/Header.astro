@@ -8,7 +8,7 @@ import Logo from "../../logos/Logo/Logo.astro";
   <Logo />
   <nav>
     <a>Trabajos</a>
-    <a>Solicitar cotización</a>
+    <a>Cotizar</a>
     <Surf href={ROUTER.herramientas.href}>{ROUTER.herramientas.display}</Surf>
   </nav>
 </header>
@@ -21,6 +21,10 @@ import Logo from "../../logos/Logo/Logo.astro";
     display: grid;
     grid-template-columns: auto 1fr;
 
+    @media (max-width: 767px) {
+      padding: var(--md);
+    }
+
     nav {
       display: flex;
       align-items: center;
@@ -30,7 +34,7 @@ import Logo from "../../logos/Logo/Logo.astro";
       a {
         color: inherit;
         &:hover {
-          color: var(--accent);
+          color: var(--secondary);
         }
       }
     }
