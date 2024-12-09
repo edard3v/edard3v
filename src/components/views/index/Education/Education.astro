@@ -1,0 +1,41 @@
+---
+import LinkOut from "../../../links/LinkOut/LinkOut.astro";
+---
+
+<div class="edu">
+  <h3>Educación</h3>
+
+  <div>
+    <p>
+      Bootcamp 800 horas teórico-practica. <LinkOut
+        href={"https://www.soyhenry.com/"}>Henry</LinkOut
+      >
+    </p>
+
+    <p>
+      Simulación laboral en No-Country. <LinkOut
+        href={"https://www.nocountry.tech/"}>No-Country</LinkOut
+      >
+    </p>
+
+    <p>
+      Actualmente cursando 6º semestre de Ingeniería de Sistemas. <LinkOut
+        href={"https://cecar.edu.co/"}>Cecar</LinkOut
+      >
+    </p>
+  </div>
+</div>
+
+<style>
+  .edu {
+    display: grid;
+    gap: var(--lg);
+    align-content: start;
+    padding: var(--xl);
+
+    div {
+      display: grid;
+      gap: var(--md);
+    }
+  }
+</style>

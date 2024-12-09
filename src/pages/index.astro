@@ -1,5 +1,6 @@
 ---
 import Banner from "../components/views/index/Banner/Banner.astro";
+import Education from "../components/views/index/Education/Education.astro";
 import Experience from "../components/views/index/Experience/Experience.astro";
 import Layout from "../layouts/Layout/Layout.astro";
 ---
@@ -7,6 +8,21 @@ import Layout from "../layouts/Layout/Layout.astro";
 <Layout title="edarcode">
   <main>
     <Banner />
-    <Experience />
+    <div class="exp-edu">
+      <Experience />
+      <Education />
+    </div>
   </main>
 </Layout>
+
+<style>
+  main {
+    padding: var(--lg);
+
+    .exp-edu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      border: var(--border);
+    }
+  }
+</style>
