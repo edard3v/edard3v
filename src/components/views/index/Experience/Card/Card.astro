@@ -1,0 +1,34 @@
+---
+interface Props {
+  title: string;
+  date: string;
+  content: string;
+}
+
+const { title, content, date } = Astro.props;
+---
+
+<article>
+  <div>
+    <h4>{title}</h4>
+    <div class="date">{date}</div>
+  </div>
+  <p>{content}</p>
+</article>
+
+<style>
+  article {
+    max-width: 500px;
+    display: grid;
+    gap: var(--md);
+
+    h4 {
+      font-size: 1.6rem;
+    }
+
+    .date {
+      color: var(--hl);
+      font-size: 0.9rem;
+    }
+  }
+</style>

@@ -1,0 +1,21 @@
+---
+import Card from "./Card/Card.astro";
+import { EXPERIENCES } from "./experiences";
+---
+
+<div class="exp">
+  <h3>Experiencia</h3>
+
+  {EXPERIENCES.map((item) => <Card {...item} />)}
+</div>
+
+<style>
+  .exp {
+    display: grid;
+    gap: var(--lg);
+
+    h3 {
+      font-size: 2.2rem;
+    }
+  }
+</style>
