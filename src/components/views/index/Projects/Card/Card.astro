@@ -1,0 +1,27 @@
+---
+import type { Project } from "../projects";
+
+interface Props {
+  project: Project;
+}
+
+const { project } = Astro.props;
+const { imgs, title } = project;
+---
+
+<article class="card">
+  <img src={imgs.full.src} alt={title} />
+</article>
+
+<style>
+  .card {
+    background-color: var(--bg-surf);
+    border: var(--border);
+    border-radius: var(--lg);
+    overflow: hidden;
+
+    img {
+      object-fit: cover;
+    }
+  }
+</style>

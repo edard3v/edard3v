@@ -1,0 +1,29 @@
+---
+import Card from "./Card/Card.astro";
+import { PROJECTS } from "./projects";
+---
+
+<div class="projects">
+  <h3>Proyectos</h3>
+
+  <section class="cards">
+    {PROJECTS.map((item) => <Card project={item} />)}
+  </section>
+</div>
+
+<style>
+  .projects {
+    display: grid;
+    gap: var(--lg);
+
+    h3 {
+      text-align: center;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 450px));
+      gap: var(--lg);
+    }
+  }
+</style>
