@@ -1,9 +1,14 @@
 ---
+import type { HTMLAttributes } from "astro/types";
 import LinkOut from "../../links/LinkOut/LinkOut.astro";
 import { NETWORKS } from "./networks";
+
+interface Props extends HTMLAttributes<"article"> {}
+
+const { class: cls } = Astro.props;
 ---
 
-<article>
+<article class:list={[cls]}>
   {
     NETWORKS.map(({ url, Icon, display }) => (
       <LinkOut title={display} href={url}>
