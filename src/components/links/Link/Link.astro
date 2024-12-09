@@ -7,12 +7,12 @@ const { class: cls, ...rest } = Astro.props;
 const isActive = Astro.url.pathname === Astro.props.href;
 ---
 
-<a {...rest} class:list={["surf", { isActive }, cls]}>
+<a {...rest} class:list={["link", { isActive }, cls]}>
   <slot />
 </a>
 
 <style>
-  .surf {
+  .link {
     color: inherit;
 
     &:hover {

@@ -1,6 +1,6 @@
 ---
 import { ROUTER } from "../../../pages/router";
-import Surf from "../../links/Surf/Surf.astro";
+import Link from "../../links/Link/Link.astro";
 import Logo from "../../logos/Logo/Logo.astro";
 ---
 
@@ -9,13 +9,13 @@ import Logo from "../../logos/Logo/Logo.astro";
   <nav>
     <a>Trabajos</a>
     <a>Cotizar</a>
-    <Surf href={ROUTER.herramientas.href}>{ROUTER.herramientas.display}</Surf>
+    <Link href={ROUTER.herramientas.href}>{ROUTER.herramientas.display}</Link>
   </nav>
 </header>
 
 <style>
   header {
-    padding: var(--md) var(--lg);
+    padding: var(--md) var(--xl);
     border-bottom: var(--border);
 
     display: grid;

@@ -15,5 +15,10 @@ import { EXPERIENCES } from "./experiences";
     gap: var(--lg);
     padding: var(--xl);
     border-right: var(--border);
+
+    @media (max-width: 680px) {
+      border-right: 0;
+      border-bottom: var(--border);
+    }
   }
 </style>
