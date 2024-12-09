@@ -17,9 +17,11 @@ import Logo from "../../logos/Logo/Logo.astro";
   header {
     padding: var(--md) var(--xl);
     border-bottom: var(--border);
+    min-height: 81px;
 
     display: grid;
     grid-template-columns: auto 1fr;
+    align-items: center;
 
     @media (max-width: 767px) {
       padding: var(--md);
@@ -30,6 +32,10 @@ import Logo from "../../logos/Logo/Logo.astro";
       align-items: center;
       justify-content: center;
       gap: var(--xl);
+
+      @media (min-width: 320px) and (max-width: 767px) {
+        gap: var(--lg);
+      }
 
       a {
         color: inherit;

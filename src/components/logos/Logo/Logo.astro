@@ -17,6 +17,13 @@ const isActive = Astro.url.pathname === "/";
   a {
     border-radius: 25%;
     overflow: hidden;
+
+    img {
+      @media (min-width: 320px) and (max-width: 767px) {
+        width: 40px;
+        height: 40px;
+      }
+    }
   }
 
   .isActive {
