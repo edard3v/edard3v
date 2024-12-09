@@ -1,0 +1,59 @@
+---
+import LinkOut from "../../../links/LinkOut/LinkOut.astro";
+import { SKILLS } from "./skills";
+---
+
+<article class="skills">
+  <h3>Habilidades</h3>
+  <ul>
+    {
+      SKILLS.map(({ name, Icon, doc }) => (
+        <li>
+          <LinkOut href={doc}>
+            <Icon />
+            <span>{name}</span>
+          </LinkOut>
+        </li>
+      ))
+    }
+  </ul>
+</article>
+
+<style>
+  .skills {
+    display: grid;
+    gap: var(--lg);
+
+    ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: var(--sm);
+      padding: 0;
+
+      li {
+        list-style: none;
+        border: var(--border);
+
+        a {
+          padding: var(--md) var(--lg);
+          display: flex;
+          align-items: center;
+          gap: var(--md);
+          color: var(--white);
+
+          &:hover {
+            background-color: var(--hover);
+          }
+
+          span {
+          }
+
+          svg {
+            width: 32px;
+            height: 32px;
+          }
+        }
+      }
+    }
+  }
+</style>
