@@ -6,9 +6,9 @@ import { ROUTER } from "./router";
 ---
 
 <Layout title={ROUTER.herramientas.display}>
-  <article class="tools">
+  <main class="tools">
     {TOOLS.map((item) => <LinkOut href={item.href}>{item.display}</LinkOut>)}
-  </article>
+  </main>
 </Layout>
 
 <style>
