@@ -7,13 +7,14 @@ interface Props {
 }
 
 const { project } = Astro.props;
-const { imgs, title, description, deploy } = project;
+const { imgs, title, description, deploy, tools } = project;
 ---
 
 <article class="card">
   <img src={imgs.full.src} alt={title} />
   <div class="txts">
     <h4><LinkOut href={deploy}>{title}</LinkOut></h4>
+    <div class="tags">{tools.map((item) => <span>{item}</span>)}</div>
     <p>{description}</p>
   </div>
 </article>
@@ -37,6 +38,19 @@ const { imgs, title, description, deploy } = project;
       h4 {
         a {
           color: currentColor;
+        }
+      }
+
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--md);
+        font-size: 0.8rem;
+
+        span {
+          outline: var(--border);
+          padding: var(--sm) var(--md);
+          border-radius: var(--md);
         }
       }
 

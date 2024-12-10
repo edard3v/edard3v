@@ -7,7 +7,7 @@ export const PROJECTS = [
     deploy: "https://krekeet.vercel.app/",
     description:
       "Agencia de comunicación digital especializada en diseño de experiencias de usuario.",
-    tools: ["Astro"],
+    tools: ["HTML", "CSS", "TS", "Astro"],
     imgs: {
       mobile: "",
       laptop: "",
@@ -20,17 +20,7 @@ export const PROJECTS = [
     deploy: "https://dragon-rosy.vercel.app/",
     description:
       "Conecta con el fascinante mundo del cine. Explora nuestra colección de casi 1 millón de películas, clásicos, últimos estrenos y mucho más.",
-    tools: [
-      "Vite",
-      "React",
-      "TS",
-      "TanStack Query",
-      "React Hook Form",
-      "Node.js",
-      "Express",
-      "DrizzleORM",
-      "SQLite",
-    ],
+    tools: ["Astro", "React", "TS", "TanStackQuery", "React Hook Form"],
     imgs: {
       mobile: "",
       laptop: "",
