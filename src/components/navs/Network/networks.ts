@@ -7,12 +7,12 @@ import Youtube from "../../icons/Youtube.astro";
 export const NETWORKS = [
   {
     display: "github",
-    url: "https://github.com/edarcode",
+    url: "https://github.com/edard3v",
     Icon: Github,
   },
   {
     display: "youtube",
-    url: "https://youtube.com/@edarcode8124?si=rdyoVhSE8RuFOy1r",
+    url: "https://www.youtube.com/@edard3v",
     Icon: Youtube,
   },
   {
