@@ -2,12 +2,14 @@
 import { ROUTER } from "../../../pages/router";
 import Link from "../../links/Link/Link.astro";
 import Logo from "../../logos/Logo/Logo.astro";
+
+const { pathname } = Astro.url;
 ---
 
 <header>
   <Logo />
   <nav>
-    <a>Trabajos</a>
+    {pathname === "/" && <a href="#projects">Proyectos</a>}
     <a>Cotizar</a>
     <Link href={ROUTER.herramientas.href}>{ROUTER.herramientas.display}</Link>
   </nav>
@@ -39,6 +41,7 @@ import Logo from "../../logos/Logo/Logo.astro";
 
       a {
         color: inherit;
+
         &:hover {
           color: var(--accent);
         }
