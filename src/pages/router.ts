@@ -1,11 +1,11 @@
 export const ROUTER = {
   index: {
     href: "/",
-    display: "Edar",
+    display: "edar",
   },
 
   herramientas: {
     href: "/herramientas/",
-    display: "Herramientas",
+    display: "herramientas",
   },
 };

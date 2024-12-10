@@ -9,8 +9,8 @@ const { pathname } = Astro.url;
 <header>
   <Logo />
   <nav>
-    {pathname === "/" && <a href="#projects">Proyectos</a>}
-    <a>Cotizar</a>
+    <Link href={ROUTER.index.href}>{ROUTER.index.display}</Link>
+    {pathname === "/" && <a href="#projects">proyectos</a>}
     <Link href={ROUTER.herramientas.href}>{ROUTER.herramientas.display}</Link>
   </nav>
 </header>
@@ -41,6 +41,7 @@ const { pathname } = Astro.url;
 
       a {
         color: inherit;
+        text-transform: capitalize;
 
         &:hover {
           color: var(--accent);
