@@ -17,12 +17,12 @@ export const NETWORKS = [
   },
   {
     display: "instagram",
-    url: "https://www.instagram.com/edarcode",
+    url: "https://www.instagram.com/edard3v/",
     Icon: Instagram,
   },
   {
     display: "linkedin",
-    url: "https://www.linkedin.com/in/edarcode",
+    url: "https://www.linkedin.com/in/edard3v",
     Icon: Linkedin,
   },
   {
