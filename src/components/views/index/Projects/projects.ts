@@ -6,7 +6,7 @@ export const PROJECTS = [
     title: "Krekeet",
     deploy: "https://krekeet.vercel.app/",
     description:
-      "Agencia de comunicación digital especializada en diseño de experiencias de usuario, con sede en la República Dominicana y socios estratégicos en Latinoamérica, Estados Unidos, Europa y Asia.",
+      "Agencia de comunicación digital especializada en diseño de experiencias de usuario.",
     tools: ["Astro"],
     imgs: {
       mobile: "",

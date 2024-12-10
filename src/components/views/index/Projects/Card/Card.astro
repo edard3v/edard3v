@@ -1,4 +1,5 @@
 ---
+import LinkOut from "../../../../links/LinkOut/LinkOut.astro";
 import type { Project } from "../projects";
 
 interface Props {
@@ -6,11 +7,15 @@ interface Props {
 }
 
 const { project } = Astro.props;
-const { imgs, title } = project;
+const { imgs, title, description, deploy } = project;
 ---
 
 <article class="card">
   <img src={imgs.full.src} alt={title} />
+  <div class="txts">
+    <h4><LinkOut href={deploy}>{title}</LinkOut></h4>
+    <p>{description}</p>
+  </div>
 </article>
 
 <style>
@@ -22,6 +27,23 @@ const { imgs, title } = project;
 
     img {
       object-fit: cover;
+    }
+
+    .txts {
+      padding: var(--lg);
+      display: grid;
+      gap: var(--md);
+
+      h4 {
+        a {
+          color: currentColor;
+        }
+      }
+
+      p {
+        font-size: 0.9rem;
+        color: var(--grey);
+      }
     }
   }
 </style>
