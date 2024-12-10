@@ -1,10 +1,12 @@
 ---
 import Btn from "../../../buttons/Btn/Btn.astro";
+import Logo from "../../../logos/Logo/Logo.astro";
 import Network from "../../../navs/Network/Network.astro";
 ---
 
 <article>
   <div class="container scale-up-center">
+    <Logo />
     <Network />
     <div>
       <h1>Edwin Ortiz</h1>
@@ -19,11 +21,15 @@ import Network from "../../../navs/Network/Network.astro";
 
 <style>
   article {
-    height: calc(100dvh - 81px - var(--xl) - var(--xl));
+    height: calc(70dvh - 81px - var(--xl) - var(--xl));
     text-align: center;
 
     display: grid;
     place-content: center;
+
+    @media (min-width: 320px) and (max-width: 767px) {
+      height: calc(100dvh - 81px - var(--xl) - var(--xl));
+    }
 
     .container {
       display: grid;

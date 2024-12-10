@@ -1,13 +1,11 @@
 ---
 import { ROUTER } from "../../../pages/router";
 import Link from "../../links/Link/Link.astro";
-import Logo from "../../logos/Logo/Logo.astro";
 
 const { pathname } = Astro.url;
 ---
 
 <header>
-  <Logo />
   <nav>
     <Link href={ROUTER.index.href}>{ROUTER.index.display}</Link>
     {pathname === "/" && <a href="#projects">proyectos</a>}
@@ -17,17 +15,12 @@ const { pathname } = Astro.url;
 
 <style>
   header {
-    padding: var(--md) var(--xl);
     border-bottom: var(--border);
     min-height: 81px;
+    padding-left: var(--xl);
 
     display: grid;
-    grid-template-columns: auto 1fr;
     align-items: center;
-
-    @media (max-width: 767px) {
-      padding: var(--md);
-    }
 
     nav {
       display: flex;
