@@ -3,7 +3,7 @@ export const SEO = {
   description:
     "Soy un profesional dedicado al desarrollo de sitios web, enfocado en la calidad y el compromiso con cada proyecto.",
   author: "edard3v",
-  img: "https://asset.cloudinary.com/dvmsllkkg/89a1542f9e78806d5a32957915fc2cc4",
+  img: "https://res.cloudinary.com/dzuo8j1qg/image/upload/v1733991158/edard3v.jpg",
   keywords:
-    "edard3v, desarrollador web, portafolio web, diseño web, programación, desarrollo front-end, desarrollo back-end, proyectos web, JavaScript, React, Astro, TypeScript, aplicaciones web, desarrollo de software, portafolio de desarrollo",
+    "edard3v, edar, desarrollador web, portafolio web, diseño web, programación, desarrollo front-end, desarrollo back-end, proyectos web, JavaScript, React, Astro, TypeScript, aplicaciones web, desarrollo de software, portafolio de desarrollo",
 };
