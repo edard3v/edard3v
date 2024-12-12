@@ -6,3 +6,5 @@
 @import "./scale.animation.css";
 @import "./rotateAndScale.animation.css";
 @import "./tracking.animation.css";
+@import "./fade.animation.css";
+@import "./blur.animation.css";

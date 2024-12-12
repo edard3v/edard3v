@@ -1,6 +1,7 @@
 ---
 import LinkOut from "../../../../links/LinkOut/LinkOut.astro";
 import type { Project } from "../projects";
+import css from "./Card.module.css";
 
 interface Props {
   project: Project;
@@ -10,54 +11,26 @@ const { project } = Astro.props;
 const { imgs, title, description, deploy, tools } = project;
 ---
 
-<article class="card">
-  <img src={imgs.full.src} alt={title} />
-  <div class="txts">
-    <h4><LinkOut href={deploy}>{title}</LinkOut></h4>
+<article class={css.card}>
+  <LinkOut class={css.link} href={deploy}>
+    <picture>
+      <img src={imgs.full.src} alt={title} />
+    </picture>
+  </LinkOut>
+
+  <div class={css.txts}>
+    <h4>{title}</h4>
     <div class="tags">{tools.map((item) => <span>{item}</span>)}</div>
     <p>{description}</p>
   </div>
 </article>
 
-<style>
-  .card {
-    background-color: var(--bg-surf);
-    border: var(--border);
-    border-radius: var(--lg);
-    overflow: hidden;
+<script>
+  import css from "./Card.module.css";
+  import { view } from "../../../../../utils/view";
 
-    img {
-      object-fit: cover;
-    }
-
-    .txts {
-      padding: var(--lg);
-      display: grid;
-      gap: var(--md);
-
-      h4 {
-        a {
-          color: currentColor;
-        }
-      }
-
-      .tags {
-        display: flex;
-        flex-wrap: wrap;
-        gap: var(--md);
-        font-size: 0.8rem;
-
-        span {
-          outline: var(--border);
-          padding: var(--sm) var(--md);
-          border-radius: var(--md);
-        }
-      }
-
-      p {
-        font-size: 0.9rem;
-        color: var(--grey);
-      }
-    }
-  }
-</style>
+  document.addEventListener("astro:page-load", () => {
+    const cards = document.querySelectorAll(`.${css.card}`);
+    cards.forEach((item) => view(item as HTMLElement, "fade-in-bottom", 0));
+  });
+</script>
