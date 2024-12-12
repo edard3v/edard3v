@@ -10,7 +10,13 @@ const isActive = Astro.url.pathname === "/";
 ---
 
 <a {...rest} href="/" class:list={[cls, { isActive }]}
-  ><Image src={logo} alt="logo edarcode" width={150} height={150} /></a
+  ><Image
+    src={logo}
+    alt="logo edarcode"
+    width={150}
+    height={150}
+    decoding={"auto"}
+  /></a
 >
 
 <style>
