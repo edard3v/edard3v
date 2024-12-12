@@ -20,7 +20,7 @@ const { imgs, title, description, deploy, tools } = project;
 
   <div class={css.txts}>
     <h4>{title}</h4>
-    <div class="tags">{tools.map((item) => <span>{item}</span>)}</div>
+    <div class={css.tags}>{tools.map((item) => <span>{item}</span>)}</div>
     <p>{description}</p>
   </div>
 </article>
