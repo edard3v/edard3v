@@ -20,6 +20,10 @@ export const TOOLS = [
     display: "chatGPT (IA)",
   },
   {
+    href: "https://hoppscotch.io/",
+    display: "hoppscotch (FETCH)",
+  },
+  {
     href: "https://docs.astro.build/es/getting-started/",
     display: "Astro (doc)",
   },
