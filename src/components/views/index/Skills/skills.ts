@@ -1,5 +1,6 @@
 import AstroF from "../../../icons/AstroF.astro";
 import CSS from "../../../icons/CSS.astro";
+import DrizzleORM from "../../../icons/DrizzleORM.astro";
 import Express from "../../../icons/Express.astro";
 import Git from "../../../icons/Git.astro";
 import Github from "../../../icons/Github.astro";
@@ -11,6 +12,7 @@ import Prisma from "../../../icons/Prisma.astro";
 import React from "../../../icons/React.astro";
 import SQLite from "../../../icons/SQLite.astro";
 import TS from "../../../icons/TS.astro";
+import Tailwind from "../../../icons/Tailwind.astro";
 
 export const SKILLS = [
   {
@@ -54,6 +56,11 @@ export const SKILLS = [
     doc: "https://docs.astro.build/es/getting-started",
   },
   {
+    name: "Tailwind",
+    Icon: Tailwind,
+    doc: "https://tailwindcss.com/docs/",
+  },
+  {
     name: "Node.js",
     Icon: Node,
     doc: "https://nodejs.org/docs/latest/api/",
@@ -68,11 +75,11 @@ export const SKILLS = [
     Icon: Prisma,
     doc: "https://www.prisma.io/docs/orm",
   },
-  // {
-  //   name: "DrizzleORM",
-  //   Icon: DrizzleORM,
-  //   doc: "https://orm.drizzle.team/docs/overview",
-  // },
+  {
+    name: "DrizzleORM",
+    Icon: DrizzleORM,
+    doc: "https://orm.drizzle.team/docs/overview",
+  },
   {
     name: "PostgreSQL",
     Icon: Postgres,

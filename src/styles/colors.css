@@ -1,13 +1,13 @@
 :root {
   --bg-main: black; /* Fondo Principal */
   --bg-surf: rgb(10, 10, 10); /* Superficie */
-  --primary: #9d2f6b; /* Primario */
-  --secondary: hsl(195, 70%, 48%); /* Secundario */
+  --primary: hsl(260, 100%, 65%); /* Primario */
+  --secondary: #9d2f6b; /* Secundario */
   --titles: #fff; /* Texto Principal */
   --paras: #fff; /* Texto Secundario */
   --hl: #ffbc42; /* Resaltado */
   --accent: #dd4ea5; /* Acento */
-  --hover: #3c91e6; /* Hover */
+  --hover: hsl(260, 100%, 65%); /* Hover */
 
   /* Common */
   --blue: #4a90e2;
