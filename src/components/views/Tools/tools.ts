@@ -20,6 +20,10 @@ export const TOOLS = [
     display: "chatGPT (IA)",
   },
   {
+    href: "https://caniuse.com/",
+    display: "Canise (Soporte Navegadores)",
+  },
+  {
     href: "https://hoppscotch.io/",
     display: "hoppscotch (FETCH)",
   },
@@ -65,6 +69,8 @@ export const TOOLS = [
   { href: "https://publicapi.dev/", display: "APIS free" },
   { href: "https://www.svgrepo.com/", display: "SVG grepo" },
   { href: "https://svgl.app/", display: "SVG de @pheralb" },
+  { href: "https://icon-sets.iconify.design/", display: "Iconify (ICONS)" },
+  { href: "https://jakearchibald.github.io/svgomg/", display: "Optimizar svg" },
   { href: "https://www.prisma.io/docs/orm", display: "Prisma ORM" },
   { href: "https://manz.dev/", display: "manzdev" },
   { href: "https://midu.dev/", display: "midudev" },
@@ -103,8 +109,6 @@ export const TOOLS = [
     display: "Befunky (Editor de fotos)",
   },
   { href: "https://neumorphism.io", display: "Neumorphism" },
-  { href: "https://icon-sets.iconify.design/", display: "Iconify (ICONS)" },
-  { href: "https://jakearchibald.github.io/svgomg/", display: "Optimizar svg" },
   { href: "https://xsgames.co/animatiss/", display: "Animatis (Animaciones)" },
   { href: "https://animista.net/", display: "Animista (Animaciones)" },
   { href: "https://www.cattocss.com/", display: "Cattocss (Animaciones)" },
@@ -115,10 +119,6 @@ export const TOOLS = [
   {
     href: "https://sarthology.github.io/Animatopy/",
     display: "Animatopy (Animaciones)",
-  },
-  {
-    href: "https://caniuse.com/",
-    display: "Canise (Soporte Navegadores)",
   },
   {
     href: "https://scroll-driven-animations.style/",
