@@ -19,6 +19,7 @@ export const TOOLS = [
     href: "https://chatgpt.com/",
     display: "chatGPT (IA)",
   },
+  { href: "https://ideogram.ai/", display: "Gerador de img (IA)" },
   {
     href: "https://caniuse.com/",
     display: "Canise (Soporte Navegadores)",
@@ -56,11 +57,6 @@ export const TOOLS = [
     href: "https://www.figma.com/community/design-inspirations/",
     display: "Figma (Diseño)",
   },
-  { href: "https://imgto.xyz/", display: "Imgto (Compresor)" },
-  {
-    href: "https://imagecompressor.11zon.com/es/image-compressor/",
-    display: "11zon (Compresor)",
-  },
   { href: "https://console.cloudinary.com/", display: "Cloudinary" },
   { href: "https://shots.so/", display: "Shots (IMGS)" },
   { href: "https://www.freepik.es/", display: "Freepik (IMGS)" },
@@ -70,6 +66,11 @@ export const TOOLS = [
   { href: "https://www.svgrepo.com/", display: "SVG grepo" },
   { href: "https://svgl.app/", display: "SVG de @pheralb" },
   { href: "https://icon-sets.iconify.design/", display: "Iconify (ICONS)" },
+  { href: "https://imgto.xyz/", display: "Imgto (Compresor)" },
+  {
+    href: "https://imagecompressor.11zon.com/es/image-compressor/",
+    display: "11zon (Compresor)",
+  },
   { href: "https://jakearchibald.github.io/svgomg/", display: "Optimizar svg" },
   { href: "https://www.prisma.io/docs/orm", display: "Prisma ORM" },
   { href: "https://manz.dev/", display: "manzdev" },
@@ -98,7 +99,6 @@ export const TOOLS = [
     href: "https://calculator-ten-khaki-94.vercel.app/",
     display: "Calculadora (edarcode)",
   },
-  { href: "https://ideogram.ai/", display: "Gerador de img (IA)" },
   {
     href: "https://notaku.vercel.app/",
     display: "Sitio web de animes (edarcode)",
