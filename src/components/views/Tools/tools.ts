@@ -57,6 +57,7 @@ export const TOOLS = [
     href: "https://imagecompressor.11zon.com/es/image-compressor/",
     display: "11zon (Compresor)",
   },
+  { href: "https://console.cloudinary.com/", display: "Cloudinary" },
   { href: "https://shots.so/", display: "Shots (IMGS)" },
   { href: "https://www.freepik.es/", display: "Freepik (IMGS)" },
   { href: "https://alphacoders.com/", display: "Alphacoders (IMGS)" },
@@ -64,7 +65,6 @@ export const TOOLS = [
   { href: "https://publicapi.dev/", display: "APIS free" },
   { href: "https://www.svgrepo.com/", display: "SVG grepo" },
   { href: "https://svgl.app/", display: "SVG de @pheralb" },
-  { href: "https://console.cloudinary.com/", display: "Cloudinary" },
   { href: "https://www.prisma.io/docs/orm", display: "Prisma ORM" },
   { href: "https://manz.dev/", display: "manzdev" },
   { href: "https://midu.dev/", display: "midudev" },
@@ -72,6 +72,10 @@ export const TOOLS = [
   {
     href: "https://cursos.doriandesings.com/course/css-intermedio",
     display: "CSS intermedio dorian",
+  },
+  {
+    href: "https://www.npmjs.com/package/@justinribeiro/lite-youtube",
+    display: "lite-youtube (NPM)",
   },
   { href: "https://pagespeed.web.dev", display: "Lighthouse" },
   {
@@ -117,6 +121,10 @@ export const TOOLS = [
     display: "Canise (Soporte Navegadores)",
   },
   {
+    href: "https://scroll-driven-animations.style/",
+    display: "Scroll (Animaciones con scroll)",
+  },
+  {
     href: "https://scrollrevealjs.org/api/sync.html",
     display: "Animaciones con scroll (ScrollReveal)",
   },
@@ -127,10 +135,6 @@ export const TOOLS = [
   {
     href: "https://gsap.com/",
     display: "GSAP (Animaciones PRO)",
-  },
-  {
-    href: "https://www.npmjs.com/package/@justinribeiro/lite-youtube",
-    display: "lite-youtube (NPM)",
   },
   {
     href: "https://splidejs.com/guides/options/",
