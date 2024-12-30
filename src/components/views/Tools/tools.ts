@@ -29,8 +29,8 @@ export const TOOLS = [
     display: "hoppscotch (FETCH)",
   },
   {
-    href: "https://docs.astro.build/es/getting-started/",
-    display: "Astro (doc)",
+    href: "https://publicapis.dev/",
+    display: "APIS públicas (API)",
   },
   {
     href: "https://excalidraw.com/",
