@@ -19,6 +19,7 @@ export const TOOLS = [
     href: "https://chatgpt.com/",
     display: "chatGPT (IA)",
   },
+  { href: "https://www.eloquentjavascript.es/", display: "Eloquent (LIBRO)" },
   { href: "https://ideogram.ai/", display: "Gerador de img (IA)" },
   {
     href: "https://caniuse.com/",
