@@ -67,6 +67,7 @@ export const TOOLS = [
   { href: "https://www.svgrepo.com/", display: "SVG grepo" },
   { href: "https://svgl.app/", display: "SVG de @pheralb" },
   { href: "https://icon-sets.iconify.design/", display: "Iconify (ICONS)" },
+  { href: "https://squish.addy.ie/", display: "Squish (Compresor)" },
   { href: "https://imgto.xyz/", display: "Imgto (Compresor)" },
   {
     href: "https://imagecompressor.11zon.com/es/image-compressor/",
