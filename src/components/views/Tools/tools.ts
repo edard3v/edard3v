@@ -142,4 +142,8 @@ export const TOOLS = [
     href: "https://splidejs.com/guides/options/",
     display: "Splide (Carruseles)",
   },
+  {
+    href: "https://ipquery.io",
+    display: "IpQuery",
+  },
 ];
