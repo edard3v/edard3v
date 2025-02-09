@@ -38,6 +38,10 @@ export const TOOLS = [
     display: "Excalidraw (Pizarra)",
   },
   {
+    href: "https://drawsql.app/diagrams",
+    display: "drawsql (Diagramas)",
+  },
+  {
     href: "https://co.pinterest.com/search/pins/?q=paginas%20web&rs=typed",
     display: "Pinterest (Diseño)",
   },
