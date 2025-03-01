@@ -147,6 +147,10 @@ export const TOOLS = [
     display: "Splide (Carruseles)",
   },
   {
+    href: "https://keen-slider.io/docs",
+    display: "KEEN-SLIDER (Carruseles)",
+  },
+  {
     href: "https://ipquery.io",
     display: "IpQuery",
   },
