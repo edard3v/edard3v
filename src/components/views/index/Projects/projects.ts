@@ -1,5 +1,6 @@
 import dragon from "./imgs/dragon.avif";
 import krekeet from "./imgs/krekeet.avif";
+import coffee from "./imgs/coffee.avif";
 
 export const PROJECTS = [
   {
@@ -25,6 +26,19 @@ export const PROJECTS = [
       mobile: "",
       laptop: "",
       full: dragon,
+    },
+  },
+
+  {
+    title: "Coffee",
+    deploy: "https://coffee-aey.pages.dev/",
+    description:
+      "Sumérgete en el mundo del café. Descubre variedades únicas, aprende sobre su preparación y disfruta de la mejor experiencia cafetera, desde el grano hasta la taza.",
+    tools: ["Astro"],
+    imgs: {
+      mobile: "",
+      laptop: "",
+      full: coffee,
     },
   },
 ] as const;

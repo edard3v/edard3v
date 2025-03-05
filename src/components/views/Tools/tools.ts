@@ -154,4 +154,8 @@ export const TOOLS = [
     href: "https://ipquery.io",
     display: "IpQuery",
   },
+  {
+    href: "https://shots.so/",
+    display: "Shots (IMG)",
+  },
 ];
