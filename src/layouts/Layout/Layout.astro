@@ -1,5 +1,5 @@
 ---
-import { ViewTransitions } from "astro:transitions";
+import { ClientRouter } from "astro:transitions";
 import { SEO } from "./seo";
 import "../../styles/index.css";
 import Footer from "../../components/shared/Footer/Footer.astro";
@@ -37,7 +37,7 @@ const { title = SEO.title } = Astro.props;
     <meta property="og:image" content={SEO.img} />
 
     <title>{title}</title>
-    <ViewTransitions />
+    <ClientRouter />
   </head>
   <body>
     <Header />
