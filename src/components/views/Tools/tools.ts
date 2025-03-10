@@ -63,7 +63,11 @@ export const TOOLS = [
     display: "Figma (Diseño)",
   },
   { href: "https://console.cloudinary.com/", display: "Cloudinary" },
-  { href: "https://shots.so/", display: "Shots (IMGS)" },
+  { href: "https://shots.so/", display: "Shots (BG_IMG)" },
+  {
+    href: "https://postspark.app/screenshot",
+    display: "Postspark (BG_IMG)",
+  },
   { href: "https://www.freepik.es/", display: "Freepik (IMGS)" },
   { href: "https://alphacoders.com/", display: "Alphacoders (IMGS)" },
   { href: "https://www.pexels.com/es-es/", display: "Pexel (IMGS)" },
@@ -154,9 +158,5 @@ export const TOOLS = [
   {
     href: "https://ipquery.io",
     display: "IpQuery",
-  },
-  {
-    href: "https://shots.so/",
-    display: "Shots (IMG)",
   },
 ];
