@@ -64,10 +64,6 @@ export const TOOLS = [
   },
   { href: "https://console.cloudinary.com/", display: "Cloudinary" },
   { href: "https://shots.so/", display: "Shots (BG_IMG)" },
-  {
-    href: "https://postspark.app/screenshot",
-    display: "Postspark (BG_IMG)",
-  },
   { href: "https://www.freepik.es/", display: "Freepik (IMGS)" },
   { href: "https://alphacoders.com/", display: "Alphacoders (IMGS)" },
   { href: "https://www.pexels.com/es-es/", display: "Pexel (IMGS)" },
