@@ -75,7 +75,10 @@ export const TOOLS = [
   { href: "https://www.svgrepo.com/", display: "SVG grepo" },
   { href: "https://svgl.app/", display: "SVG de @pheralb" },
   { href: "https://icon-sets.iconify.design/", display: "Iconify (ICONS)" },
-  { href: "https://www.veed.io/tools/video-compressor", display: "VEED (Compresor VIDEO)" },
+  {
+    href: "https://www.freeconvert.com/es/video-compressor",
+    display: "freeconvert (Compresor VIDEO)",
+  },
   { href: "https://squish.addy.ie/", display: "Squish (Compresor)" },
   { href: "https://imgto.xyz/", display: "Imgto (Compresor)" },
   {
