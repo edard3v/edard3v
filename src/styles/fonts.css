@@ -1,23 +1,47 @@
-body {
-  font-family: "Montserrat Variable";
-}
+@import "@fontsource-variable/montserrat";
+@import "@fontsource-variable/jost";
 
-@media (max-width: 768px) {
-  html {
-    font-size: 14px;
+:root {
+  font-size: 17.5px;
+  @media (max-width: 1024px) {
+    font-size: 15.5px;
   }
 }
 
+body {
+  font-family: "Jost Variable", sans-serif;
+}
+
 h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  letter-spacing: -1px;
+  font-family: "Montserrat Variable";
+}
+
+h1 {
+  font-size: 3.75rem;
+}
+
 h2 {
-  font-family: "Syncopate";
-  font-weight: 100;
+  font-size: 3rem;
 }
 
 h3 {
-  font-size: 2.2rem;
+  font-size: 2.25rem;
 }
 
 h4 {
-  font-size: 1.6rem;
+  font-size: 1.875rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-size: 1.25rem;
 }
