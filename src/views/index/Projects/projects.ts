@@ -8,7 +8,7 @@ export const PROJECTS = [
     title: "Notaku",
     deploy: "https://notaku-liart.vercel.app/",
     description:
-      "Explora el mejor catálogo de animes online. Sinopsis, trailers, recomendaciones y más",
+      "Explora el mejor catálogo de animes online. Sinopsis, trailers, recomendaciones y más.",
     tools: ["Astro", "React"],
     imgs: {
       mobile: "",
