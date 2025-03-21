@@ -1,5 +1,4 @@
 EDWIN ORTIZ
-
 FULL STACK DEVELOPER
 
 HABILIDADES
@@ -34,7 +33,6 @@ EDUCACIÓN
 CONTACTO
 
 - Portafolio: https://edard3v.pages.dev/
-- Email: edard3v@gmail.com
 - LinkedIn: https://www.linkedin.com/n/edard3v
 - YouTube: https://www.youtube.com/@edard3v
 
