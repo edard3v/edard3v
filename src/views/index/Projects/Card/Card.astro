@@ -1,8 +1,8 @@
 ---
 import Image from "astro/components/Image.astro";
-import LinkOut from "../../../../links/LinkOut/LinkOut.astro";
 import type { Project } from "../projects";
 import css from "./Card.module.css";
+import LinkOut from "../../../../components/links/LinkOut/LinkOut.astro";
 
 interface Props {
   project: Project;
@@ -15,13 +15,7 @@ const { imgs, title, description, deploy, tools } = project;
 <article class={css.card}>
   <LinkOut class={css.link} href={deploy}>
     <picture>
-      <Image
-        src={imgs.full}
-        alt={title}
-        format="avif"
-        width={448}
-        height={336}
-      />
+      <Image src={imgs.full} alt={title} format="avif" width={448} height={336} />
     </picture>
   </LinkOut>
 
@@ -33,8 +27,8 @@ const { imgs, title, description, deploy, tools } = project;
 </article>
 
 <script>
+  import { view } from "../../../../utils/view";
   import css from "./Card.module.css";
-  import { view } from "../../../../../utils/view";
 
   document.addEventListener("astro:page-load", () => {
     const cards = document.querySelectorAll(`.${css.card}`);
