@@ -27,6 +27,7 @@ Apto para el trabajo en equipo. Siempre buscando aprender nuevas habilidades y c
 
 EDUCACIÓN
 
+- Actualmente cursando quinto semestreuniversidad CUN Bogotá Colombia
 - Henry bootcamp, 800 horas teórico-prácticas (http://www.soyhenry.com)
 - Simulación laboral en No-Country, trabajando 20 horas semanales. Experiencia en desarrollo colaborativo y prácticas de trabajo en equipo.
 
@@ -47,11 +48,6 @@ Creación de vistas exponiendo información relevante destinada a la organizaci�
 Asistir en la solución de ejercicios y promover la colaboración grupal a través del uso de pair programming.
 
 PROYECTOS
-
-- Notaku
-
-Explora el mejor catálogo de animes online. Sinopsis, trailers, recomendaciones y más.
-Tecnologías: Astro, React, Jikan(API)
 
 - Dragon
 
