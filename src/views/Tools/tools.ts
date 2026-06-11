@@ -68,9 +68,11 @@ export const TOOLS = [
   { href: "https://alphacoders.com/", display: "Alphacoders (IMGS)" },
   { href: "https://www.pexels.com/es-es/", display: "Pexel (IMGS)" },
   { href: "https://publicapi.dev/", display: "APIS free" },
-  { href: "https://www.svgrepo.com/", display: "SVG grepo" },
+  { href: "https://icons8.com/icons", display: "ICONS 8 (ICONS)" },
+  { href: "https://www.svgrepo.com/", display: "SVG grepo (ICONS)" },
   { href: "https://svgl.app/", display: "SVG de @pheralb" },
   { href: "https://icon-sets.iconify.design/", display: "Iconify (ICONS)" },
+  { href: "https://uiverse.io/", display: "UI (UIverse)" },
   {
     href: "https://www.freeconvert.com/es/video-compressor",
     display: "freeconvert (Compresor VIDEO)",

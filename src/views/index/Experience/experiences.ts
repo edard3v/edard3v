@@ -2,8 +2,7 @@ export const EXPERIENCES = [
   {
     title: "Joyful Pets",
     date: "2025, 2 meses",
-    content:
-      "Desarrollo fullstack de tienda online de placas para mascotas en Costa Rica, con panel de administración.",
+    content: "Desarrollo fullstack de tienda online de placas para mascotas en Costa Rica.",
   },
   {
     title: "Krekeet",
